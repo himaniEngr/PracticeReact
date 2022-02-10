@@ -15,9 +15,9 @@ const App = () => {
     //   {getText()}
     // </div>
     <div class="ui container comments">
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
+      <CommentDetail author="Sam" />
+      <CommentDetail author="Peter" />
+      <CommentDetail author="Jane" />
     </div>
   );
 };

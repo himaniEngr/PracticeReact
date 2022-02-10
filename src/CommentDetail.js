@@ -2,14 +2,14 @@ import react from "react";
 import reactDom from "react-dom";
 import faker from "faker";
 
-const CommentDetail = () => {
+const CommentDetail = (props) => {
   return (
     <div class="comment">
       <a class="avatar">
         <img alt="avatar" src={faker.image.image()} />
       </a>
       <div class="content">
-        <a class="author">Stevie Feliciano</a>
+        <a class="author">{props.author}</a>
         <div class="metadata">
           <div class="date">2 days ago</div>
           <div class="rating">
